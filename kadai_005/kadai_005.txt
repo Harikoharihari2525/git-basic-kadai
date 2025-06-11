@@ -1,0 +1,25 @@
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git> git commit -m "最初のコミット"
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git> cd git_challenge
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git commit -m "最初 のコミット"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/owner/OneDrive/デスクトップ/syudy/git/git_challenge/.git/
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git add hello_world.txt
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git commit -m "最初 のコミット"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git add hello_world.txt
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git commit -m "最初 のコミット"
+[main ae54e01] 最初のコミット
+ 1 file changed, 3 insertions(+)
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git add hello_world.txt
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git commit -m "2回目のコミット"
+[main 8a28f4f] 2回目のコミット
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge> git log --oneline   
+8a28f4f (HEAD -> main) 2回目のコミット
+ae54e01 最初のコミット
+65b8d1f 最初のコミット
+PS C:\Users\owner\OneDrive\デスクトップ\syudy\git\git_challenge>
